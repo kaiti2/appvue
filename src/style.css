@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#bloc {
+    background-color: wheat;
+    padding: 3%;
+    min-height: 30vh;
+    min-width: 30vh;
+    width: auto;
+    height: auto;
+    margin-top: 10vh;
+    border-radius: 5%;
+}
+
+header input{
+    min-height: 40px;
+    width: 100%;
+    border: none;
+    padding-left: 5%;
+    background-color:white;
+}
+
+header button{
+    min-width: 40px;
+    background: none;  
+}
+
+li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+li .buttons {
+    min-width: 100px;
+    margin-left: auto;
+    display: inline;
+}
+
+li .buttons button {
+    background:none;
+    min-width: 40px;
+    border: none; 
+    font-size: 2rem;
+}
